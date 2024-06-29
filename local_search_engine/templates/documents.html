@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Search</title>
+  <link rel="stylesheet" href="documents/style.css">
+
+  <link rel="stylesheet" href="documents/night-theme.css">
+</head>
+<body>
+  <header>
+    <h1>Document Search</h1>
+  </header>
+
+  <main>
+    <form action="/documents" method="get">
+      <label for="query">Search:</label>
+      <input type="text" id="query" name="query" required>
+
+      <label for="algorithm">Algorithm:</label>
+      <select id="algorithm" name="algorithm" required>
+        <option value="bm25">BM25</option>
+        <option value="tfidf">TF-IDF</option>
+      </select>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+  </main>
+
+  <script src="documents/script.js"></script>
+</body>
+</html>

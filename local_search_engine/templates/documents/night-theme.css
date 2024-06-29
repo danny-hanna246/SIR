@@ -1,0 +1,28 @@
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+header {
+  background-color: #222222;
+}
+
+h1 {
+  color: #fff;
+}
+
+label {
+  color: #ddd;
+}
+
+input,
+select {
+  background-color: #222222;
+  border-color: #444;
+  color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  border-color: #007bff;
+}

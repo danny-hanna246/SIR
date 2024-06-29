@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "title": "Search result 1",
+      "url": "https://www.example.com/result1",
+      "snippet": "This is the snippet for the first search result.",
+      "error_message": null
+    },
+    {
+      "title": "Search result 2",
+      "url": "https://www.example.com/result2",
+      "snippet": "This is the snippet for the second search result.",
+      "error_message": null
+    },
+    {
+      "title": "Search result 3",
+      "url": "https://www.example.com/result3",
+      "snippet": "This is the snippet for the third search result.",
+      "error_message": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #212121; /* Night theme background color */
+  color: #f5f5f5; /* Night theme text color */
+}
+
+h1, h2, p, a {
+  font-size: 16px;
+  color: #ddd; /* Headings and text color */
+}
+
+ul#results {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.result {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+  padding: 10px;
+  background-color: #20222c; /* Result item background color */
+}
+
+li.result a {
+  color: #4285f4; /* Link color */
+  text-decoration: none;
+}
+
+li.result a:hover {
+  color: #38404b; /* Hover link color */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Search Engine</title>
+  <link rel="stylesheet" href="index/style.css">
+</head>
+<body class="night-theme">
+  <h1 class="night-text">Local Search Engine</h1>
+{% if error_message is not none and error_message %}
+    <p class="error-message">{{ error_message }}</p>
+{% endif %}
+  <form method="POST">
+    <label for="query" class="night-text">Search Query:</label>
+    <input type="text" name="query" id="query" required>
+    <br>
+    <label for="algorithm" class="night-text">Information Retrieval Model:</label>
+    <select name="algorithm" id="algorithm">
+      <option value="BM">Boolean Model</option>
+      <option value="EBM">Extended Boolean Model</option>
+      <option value="VM">Vector Model</option>
+    </select>
+    <br>
+    <button type="submit" class="night-button">Search</button>
+  </form>
+  <script src="index/script.js"></script>
+</body>
+</html>
